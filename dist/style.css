@@ -86,3 +86,29 @@ body{
  /* background-color: black; */
  
 }
+
+@media only screen and (max-width: 1199.98px) {
+
+  .section-1 img{
+    height: 200px;
+  }
+
+  .section-3 h2 {
+    font-size: 1.5rem;
+    padding-bottom: 50px !important;
+  }
+
+  .section-3 ol {
+    display: inline-block;
+  }
+
+  .section-3 li span{
+    font-size: 1.2rem;
+  }
+  .section-3 li {
+    text-align: left;
+    font-size: 1.2em;
+    padding-bottom: 40px !important;
+  }
+  
+}
