@@ -33,16 +33,6 @@ min-height: 500px;
 }
 
 
-
-form{
-  min-width: 500px;
-  /* height: 75%; */
-  /* border: 1px solid #2596d8; */
-  border-radius: 10px;
-  /* background-color: #f5f5f5; */
-  /* min-height: 1000px; */
-}
-
 form label{
   font-weight: 600;
 }
