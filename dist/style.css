@@ -32,7 +32,9 @@ min-height: 500px;
   list-style-position: outside;
 }
 
-
+form{
+  min-width: 25%;
+}
 form label{
   font-weight: 600;
 }
