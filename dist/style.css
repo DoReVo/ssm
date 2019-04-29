@@ -22,6 +22,7 @@ min-height: 500px;
 
 .section-3 li {
  padding-bottom: 5em;
+ font-size: 1.5em;
 }
 
 .section-3 li span{
@@ -30,7 +31,7 @@ min-height: 500px;
 }
 
 .section-3 ol{
-  list-style-position: outside;
+  list-style-position: inside;
 }
 
 
