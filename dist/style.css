@@ -1,10 +1,12 @@
 header{
-  background-color:#f5f5f5;
+  /* background-color:#f5f5f5; */
+  background-color:#1f1d1d;
 }
 
 .section-1{
 /* background-image:url("lobby.jpg"); */
-background-color: #1a9ce7;
+/* background-color: #1a9ce7; */
+background-color: #f5f5f5;;
 min-height: 500px;
 /* filter:blur(2.5px); */
 }
@@ -12,9 +14,15 @@ min-height: 500px;
 .section-1 h1{
   font-weight: bold;
   text-justify:auto;
+  font-size: 4.5em;
+  font-style: italic;
 }
 
 .section-2{
+  /* background-color: #f5f5f5; */
+}
+
+.section-3{
   background-color: #f5f5f5;
 }
 
@@ -45,7 +53,7 @@ form input,form select{
 
 .section-4{
   min-height: 150px;
-  background-color: #f6e924;
+  /* background-color: #f6e924; */
 }
 
 .section-4 span{
@@ -60,7 +68,7 @@ form input,form select{
   display: inline-block;
   text-align: left;
   padding-top:.5em;
-  list-style-type: circle;
+  /* list-style-type: circle; */
 }
 
 .section-4 li{
@@ -93,6 +101,10 @@ body{
     height: 200px;
   }
 
+  .section-1 h1{
+    font-size: 3.5em;
+  }
+
   .section-3 h2 {
     font-size: 1.5rem;
     padding-bottom: 50px !important;
@@ -111,4 +123,22 @@ body{
     padding-bottom: 40px !important;
   }
   
+}
+
+@media only screen and (max-width: 679px) {
+
+  .section-1 h1{
+    font-size: 3em;
+  }
+
+
+}
+
+@media only screen and (max-width: 581px) {
+
+  .section-1 h1{
+    font-size: 2.5em;
+  }
+
+
 }
